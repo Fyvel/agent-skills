@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "c4-level1-context": {
+      "source": "fyvel/agent-skills",
+      "sourceType": "github",
+      "computedHash": "6c70e06d16ff2fa075854592d34ea588340e9b5ec2f0171b8133db09acf815cb"
+    },
+    "c4-level2-container": {
+      "source": "fyvel/agent-skills",
+      "sourceType": "github",
+      "computedHash": "4083ef47da0975d24d49d0d5185f1796ed5a7bd090965ea023a421bd261e6e81"
+    },
+    "c4-level3-component": {
+      "source": "fyvel/agent-skills",
+      "sourceType": "github",
+      "computedHash": "a60314eb988fea973e7f8d83e0384f8072cef15f973514f483ca41c9edf7b37c"
+    },
+    "c4-level4-code": {
+      "source": "fyvel/agent-skills",
+      "sourceType": "github",
+      "computedHash": "8bb3932db3bd6d18ae21eb58c139cdf5d25eb4ed2e6d49901e7202900f437e89"
+    },
+    "c4-model": {
+      "source": "fyvel/agent-skills",
+      "sourceType": "github",
+      "computedHash": "ead75f44aa51e0025401deeb1ced234e30ec86cfe37f7c9b9c0a7ce77f54d38a"
+    },
+    "ddd-core": {
+      "source": "fyvel/agent-skills",
+      "sourceType": "github",
+      "computedHash": "418cfc94ea494902882e504b010c742fcc64fa2745b240f7e278ed41ba18abf3"
+    },
+    "ddd-patterns": {
+      "source": "fyvel/agent-skills",
+      "sourceType": "github",
+      "computedHash": "9a9e30fe7d48acdb5c69a6f3c276ed4bf8b1ea8a5283a4d748ef46df3555caa8"
+    },
+    "ddd-tactical": {
+      "source": "fyvel/agent-skills",
+      "sourceType": "github",
+      "computedHash": "a206b27e20e45ee5df7a29d6612449cfc7027c1ef248db940a969ba99f4b2ce4"
+    }
+  }
+}

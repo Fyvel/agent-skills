@@ -1,0 +1,135 @@
+{
+  "name": "fyvel/agent-skills",
+  "version": "0.0.1",
+  "description": "Focused architecture and discovery library: C4 modeling, DDD design, and problem discovery workflows.",
+  "author": {
+    "name": "Fyvel"
+  },
+  "format": "skills.sh",
+  "skills": [
+    {
+      "name": "c4-level1-context",
+      "path": "./.agent-skills/c4-level1-context",
+      "description": "Specialized in System Context diagrams (Level 1) with User Journey integration",
+      "tags": [
+        "architecture",
+        "c4-level1",
+        "context",
+        "stakeholders"
+      ]
+    },
+    {
+      "name": "c4-level2-container",
+      "path": "./.agent-skills/c4-level2-container",
+      "description": "Specialized in Container diagrams (Level 2) with Infrastructure mapping",
+      "tags": [
+        "architecture",
+        "c4-level2",
+        "containers"
+      ]
+    },
+    {
+      "name": "c4-level3-component",
+      "path": "./.agent-skills/c4-level3-component",
+      "description": "Specialized in Component diagrams (Level 3) with folder structure mapping",
+      "tags": [
+        "architecture",
+        "c4-level3",
+        "components",
+        "code-structure"
+      ]
+    },
+    {
+      "name": "c4-level4-code",
+      "path": "./.agent-skills/c4-level4-code",
+      "description": "Specialized in Code diagrams (Level 4) using UML class and ER diagrams",
+      "tags": [
+        "architecture",
+        "c4-level4",
+        "uml",
+        "database",
+        "erd"
+      ]
+    },
+    {
+      "name": "c4-model",
+      "path": "./.agent-skills/c4-model",
+      "description": "Professional C4 model architecture hub for Design-to-Code Sync",
+      "tags": [
+        "architecture",
+        "c4-model",
+        "design",
+        "documentation"
+      ]
+    },
+    {
+      "name": "ddd-core",
+      "path": "./.agent-skills/ddd-core",
+      "description": "Strategic Domain-Driven Design (DDD) Hub & Workshop",
+      "tags": [
+        "ddd",
+        "architecture",
+        "strategic-design",
+        "bounded-context",
+        "event-storming"
+      ]
+    },
+    {
+      "name": "ddd-patterns",
+      "path": "./.agent-skills/ddd-patterns",
+      "description": "Advanced Domain-Driven Design (DDD) Integration Patterns",
+      "tags": [
+        "ddd",
+        "advanced-patterns",
+        "cqrs",
+        "event-sourcing",
+        "outbox"
+      ]
+    },
+    {
+      "name": "ddd-tactical",
+      "path": "./.agent-skills/ddd-tactical",
+      "description": "Tactical Domain-Driven Design (DDD) with Scoring Rubric",
+      "tags": [
+        "ddd",
+        "tactical-design",
+        "aggregates",
+        "clean-architecture",
+        "domain-review"
+      ]
+    },
+    {
+      "name": "problem-discovery",
+      "path": "./.agent-skills/problem-discovery",
+      "files": [
+        "SKILL.md"
+      ],
+      "description": "Validate that a real-world problem exists using multi-signal framework (interviews, LMR, landing pages, competitor analysis) before defining JTBD or writing code",
+      "tags": [
+        "product",
+        "discovery",
+        "validation",
+        "lmr",
+        "jtbd",
+        "mvp",
+        "market-research",
+        "problem-solution-fit"
+      ]
+    },
+    {
+      "name": "router",
+      "path": "./.agent-skills/router",
+      "files": [
+        "SKILL.md",
+        "SKILL.toon"
+      ],
+      "description": "Dispatch to the right retained skill based on user intent when requests are ambiguous.",
+      "tags": [
+        "routing",
+        "dispatch",
+        "meta",
+        "orchestration"
+      ]
+    }
+  ]
+}

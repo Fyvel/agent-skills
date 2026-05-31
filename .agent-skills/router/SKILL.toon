@@ -1,0 +1,23 @@
+---
+name: router
+description: Dispatch to the relevant retained fyvel skill when user intent is ambiguous.
+metadata:
+  tags: ["routing", "dispatch", "meta", "orchestration"]
+---
+# Router (Condensed)
+
+Route fuzzy requests to one of these skills:
+- `c4-model`
+- `c4-level1-context`
+- `c4-level2-container`
+- `c4-level3-component`
+- `c4-level4-code`
+- `ddd-core`
+- `ddd-tactical`
+- `ddd-patterns`
+- `problem-discovery`
+
+## Decision Rules
+1. Prefer specific over general (`c4-level*` over `c4-model`, `ddd-tactical` over `ddd-core` when aggregates/entities are explicit).
+2. Ask only when two skills are equally valid.
+3. Store successful non-obvious routes for future recall.

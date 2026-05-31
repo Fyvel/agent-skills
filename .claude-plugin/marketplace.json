@@ -1,0 +1,18 @@
+{
+  "name": "fyvel",
+  "description": "Focused architecture and discovery skills for C4 modeling, DDD design, problem discovery, and routing.",
+  "owner": {
+    "name": "Fyvel"
+  },
+  "plugins": [
+    {
+      "name": "fyvel-skills",
+      "description": "Curated skills for architecture and discovery: C4, DDD, problem discovery, and router-based intent dispatch.",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "Fyvel"
+      }
+    }
+  ]
+}

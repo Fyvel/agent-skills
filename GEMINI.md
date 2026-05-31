@@ -1,0 +1,55 @@
+# GEMINI.md - Skills Repository Context
+
+This directory is a publishable skills repository for AI coding agents (Gemini, Claude, Qwen, Cursor), following the [skills.sh](https://skills.sh) standard.
+
+## 📁 Directory Overview
+
+This repository contains a curated, minimal set of modular skills focused on architecture and discovery.
+
+## 🏗 Repository Structure
+
+- **`.agent-skills/`**: The core directory containing all skill source definitions.
+  - Each sub-directory (e.g., `python-development/`) represents a single skill source.
+  - **`SKILL.md`**: The primary instruction file for the AI agent.
+- **`dist/`**: The distribution directory containing packaged `*.skill` files. These are forced-committed to allow direct installation.
+- **`skills.json`**: The central manifest file listing all available skills for the `skills.sh` format.
+- **`gemini-extension.json`**: The official manifest for Gemini CLI listing.
+
+## 🛠 Available Skills (Curated)
+
+| Category | Skills |
+| :--- | :--- |
+| **C4** | `c4-model`, `c4-level1-context`, `c4-level2-container`, `c4-level3-component`, `c4-level4-code` |
+| **DDD** | `ddd-core`, `ddd-tactical`, `ddd-patterns` |
+| **Discovery** | `problem-discovery` |
+| **Routing** | `router` |
+
+## 🚀 Usage & Integration
+
+### Gemini CLI (Official Extension)
+The most direct way to install this repository as a Gemini extension:
+```bash
+gemini extensions install https://github.com/fyvel/agent-skills
+```
+
+### Specialized Workflows
+- **[Antigravity Workflow](./docs/antigravity-workflow.md)**
+- **[DDD + C4 Mapping](./docs/ddd-c4-mapping.md)**
+- **[Second Brain Knowledge Compression](./docs/second-brain-knowledge-compression.md)**
+
+### Tool Integration
+- **Gemini CLI**: To use workspace-specific skills, copy `.agent-skills/` and this `GEMINI.md` into your project's root. For global use, use the `extensions install` command above.
+- **Cursor**: Reference `.cursor/README.md` for rule application.
+- **Qwen Code**: Configure the source path to `./.agent-skills`.
+- **Claude Code**: Add the `.agent-skills` path to the tool's settings.
+
+## 📝 Maintenance Guidelines
+
+1.  **New Skill Creation**: 
+    - Use the `init_skill.py` script to bootstrap.
+    - Update `skills.json` and ensure `SKILL.md` has clear triggers.
+2.  **Packaging**: Run `make package` to generate and update `.skill` files in `dist/`.
+3.  **Validation**: Run `make validate` to ensure all skills follow the standard.
+
+## ⚠️ Current TODOs
+- [ ] Add the `gemini-cli-extension` topic to the GitHub repository (requires Web UI).
